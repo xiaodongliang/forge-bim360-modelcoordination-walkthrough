@@ -45,6 +45,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthWeb", "Auxiliary\AuthWe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateModelSetSample", "2. CreateModelSetSample\CreateModelSetSample.csproj", "{9BAE92A2-02A6-45DE-A8FC-D5BFF5987ABB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9. RelattionshipSample", "9. RelattionshipSample", "{41BA6963-0CB3-4806-A354-E3EC78BAA21B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelationshipSample", "RelationshipSample\RelationshipSample.csproj", "{04CC25E4-80DF-4F02-8BB1-5E582FED2FB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +103,10 @@ Global
 		{9BAE92A2-02A6-45DE-A8FC-D5BFF5987ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BAE92A2-02A6-45DE-A8FC-D5BFF5987ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BAE92A2-02A6-45DE-A8FC-D5BFF5987ABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04CC25E4-80DF-4F02-8BB1-5E582FED2FB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04CC25E4-80DF-4F02-8BB1-5E582FED2FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04CC25E4-80DF-4F02-8BB1-5E582FED2FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04CC25E4-80DF-4F02-8BB1-5E582FED2FB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -116,6 +124,7 @@ Global
 		{D399573F-D70E-45C0-BC99-DD3A8B0F9063} = {5C386C1D-5B7B-4EB9-81C8-0F0ED1525D33}
 		{64DC074E-025B-40CA-BE47-A4E4E73BA7C4} = {5C386C1D-5B7B-4EB9-81C8-0F0ED1525D33}
 		{9BAE92A2-02A6-45DE-A8FC-D5BFF5987ABB} = {E55CC3D8-E943-4358-91AD-DD83C6EDD8F8}
+		{04CC25E4-80DF-4F02-8BB1-5E582FED2FB8} = {41BA6963-0CB3-4806-A354-E3EC78BAA21B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4AE95245-7447-4389-8429-025197C29729}

@@ -17,6 +17,7 @@
 using Autodesk.Forge.Bim360.ModelCoordination.Clash;
 using Autodesk.Forge.Bim360.ModelCoordination.Index;
 using Autodesk.Forge.Bim360.ModelCoordination.ModelSet;
+using Autodesk.Forge.Bim360.Relationship;
 using Microsoft.Extensions.DependencyInjection;
 using Sample.Forge.Auth;
 using Sample.Forge.Coordination;
@@ -59,6 +60,9 @@ namespace Sample.Forge
 
             serviceCollection.AddHttpClient<IClashClient, ClashClient>((provider, options) => options.BaseAddress = provider.GetRequiredService<SampleConfiguration>().ModelSetClashApiBasePath)
                 .AddSampleConfigurationDelegatingHandler();
+
+            serviceCollection.AddHttpClient<IRelationshipClient, RelationshipClient>((provider, options) => options.BaseAddress = provider.GetRequiredService<SampleConfiguration>().RelationshipApiBasePath)
+               .AddSampleConfigurationDelegatingHandler();
 
             serviceCollection.AddSingleton<ITokenManager, TokenManager>();
 

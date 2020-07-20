@@ -111,6 +111,12 @@ namespace Sample.Forge
         public Uri ModelSetClashApiBasePath => new Uri($"https://{Host}/bim360/clash/");
 
         /// <summary>
+        /// The base path for the relationship API
+        /// </summary>
+        [JsonIgnore]
+        public Uri RelationshipApiBasePath => new Uri($"https://{Host}/bim360/relationship/");
+
+        /// <summary>
         /// The authenticaiton endpoint for a an OAuth 2.0 3LO token flow
         /// </summary>
         [JsonIgnore]
